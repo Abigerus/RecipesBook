@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FullRecipeActivity">
+
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtKeyWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="end"
+        android:paddingTop="3dp"
+        android:text="KeyWord"
+        android:textColor="#954E4D4D"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:paddingRight="20dp" />
+
+    <TextView
+        android:id="@+id/txtRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Recipe Name"
+        android:textColor="#DF1152"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Description"
+        android:scrollbars = "vertical"
+        android:textColor="#2E2D2D"
+        android:textSize="22sp"
+        android:id="@+id/txtDescription"
+        />
+    </ScrollView>
+
+
+</LinearLayout>

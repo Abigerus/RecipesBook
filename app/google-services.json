@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "455064814059",
+    "project_id": "resipesbook",
+    "storage_bucket": "resipesbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455064814059:android:2792bf044665e17e35d9ae",
+        "android_client_info": {
+          "package_name": "com.example.resipesbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455064814059-743mad87j27moimuc7bu1g0e949em0ni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resipesbook",
+            "certificate_hash": "74daee28607d92bea52df6606350879a64f5416c"
+          }
+        },
+        {
+          "client_id": "455064814059-feb5sqhc4kqfh9a8r82phijrrr44v6ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7TIwrfFvCqEdxZ_L53IWLWlG_iMyBzY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455064814059-feb5sqhc4kqfh9a8r82phijrrr44v6ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
